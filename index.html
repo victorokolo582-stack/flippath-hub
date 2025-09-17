@@ -1,0 +1,194 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>Flippath Hub</title>  
+  <style>  
+    body {  
+      font-family: Arial, sans-serif;  
+      margin: 0;  
+      padding: 0;  
+      background: #f9f9f9;  
+      color: #333;  
+      text-align: center;  
+    }  
+    header {  
+      background: #4CAF50;  
+      color: white;  
+      padding: 20px 10px;  
+      font-size: 24px;  
+      font-weight: bold;  
+    }  
+    .container {  
+      width: 90%;  
+      margin: 20px auto;  
+      display: grid;  
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));  
+      gap: 20px;  
+    }  
+    .book {  
+      background: white;  
+      border-radius: 10px;  
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);  
+      padding: 10px;  
+      text-align: center;  
+    }  
+    .book img {  
+      width: 100%;  
+      height: auto;  
+      border-radius: 8px;  
+    }  
+    .book-title {  
+      margin-top: 12px;  
+      font-weight: bold;  
+      font-size: 20px;  
+      text-align: center;  
+      color: #222;  
+    }  
+    .video-section {  
+      width: 90%;  
+      margin: 40px auto;  
+    }  
+    .video-section iframe {  
+      width: 100%;  
+      max-width: 800px;  
+      height: 450px;  
+      border-radius: 10px;  
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);  
+    }  
+
+    /* Testimonials Section */  
+    .testimonials {  
+      width: 90%;  
+      margin: 40px auto;  
+    }  
+    .testimonial {  
+      background: white;  
+      border-radius: 10px;  
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);  
+      padding: 20px;  
+      margin: 15px 0;  
+      font-style: italic;  
+    }  
+    .testimonial strong {  
+      display: block;  
+      margin-top: 10px;  
+      font-weight: bold;  
+      color: #4CAF50;  
+    }  
+
+    /* Floating WhatsApp Button */  
+    .whatsapp-button {  
+      position: fixed;  
+      bottom: 20px;  
+      right: 20px;  
+      z-index: 1000;  
+      display: inline-block;  
+      padding: 15px 30px;  
+      font-size: 18px;  
+      color: white;  
+      background: #25D366;  
+      border: none;  
+      border-radius: 50px;  
+      text-decoration: none;  
+      font-weight: bold;  
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);  
+    }  
+
+    footer {  
+      background: #333;  
+      color: white;  
+      padding: 15px;  
+      font-size: 14px;  
+      margin-top: 80px;  
+    }  
+  </style>  
+</head>  
+<body>  
+  <header>📚 Welcome to Flippath Hub Bookstore</header>  
+  
+  <section class="container">  
+    <!-- Book 1 -->  
+    <div class="book">  
+      <img src="https://i.postimg.cc/vBGKCMgz/IMG-20250913-125811.jpg" alt="The Amazing You for Girls">  
+      <div class="book-title">The Amazing You for Girls</div>  
+    </div>  
+    <!-- Book 2 -->  
+    <div class="book">  
+      <img src="https://i.postimg.cc/L4wT129b/IMG-20250913-125757.jpg" alt="The Amazing You for Boys">  
+      <div class="book-title">The Amazing You for Boys</div>  
+    </div>  
+    <!-- Book 3 -->  
+    <div class="book">  
+      <img src="https://i.postimg.cc/xj4s3LRg/7a666cbe779b771b2da75dd7d60559ba.jpg" alt="Children Books">  
+      <div class="book-title">Children Books</div>  
+    </div>  
+    <!-- Book 4 -->  
+    <div class="book">  
+      <img src="https://i.postimg.cc/CxY6RSJV/453bbd2566892cca5fbe3f21d86973a6.jpg" alt="The Gruffalo">  
+      <div class="book-title">The Gruffalo</div>  
+    </div>  
+    <!-- Book 5 -->  
+    <div class="book">  
+      <img src="https://i.postimg.cc/13nJjR2G/32f769991010bf9c1c569d8c5d911934.jpg" alt="The Nature of Love">  
+      <div class="book-title">The Nature of Love</div>  
+    </div>  
+    <!-- Book 6 -->  
+    <div class="book">  
+      <img src="https://i.postimg.cc/T3pr3kcf/859f2805c6b4a7f7d9762eb95879be34.jpg" alt="Romance Novels">  
+      <div class="book-title">Romance Novels</div>  
+    </div>  
+    <!-- Book 7 -->  
+    <div class="book">  
+      <img src="https://i.postimg.cc/XqtyGWLW/1037f3fe43468ee38cb8a594d97c51c3.jpg" alt="The Love Hypothesis">  
+      <div class="book-title">The Love Hypothesis</div>  
+    </div>  
+    <!-- Book 8 -->  
+    <div class="book">  
+      <img src="https://i.postimg.cc/kgwzySv4/e1eba6f828dd9e781573611a4bb98cec.jpg" alt="The Art of Being Alone">  
+      <div class="book-title">The Art of Being Alone</div>  
+    </div>  
+    <!-- Book 9 -->  
+    <div class="book">  
+      <img src="https://i.postimg.cc/T2bbFL3Y/8ad9d3136fe6835017f04728179112cf.jpg" alt="Day Dream">  
+      <div class="book-title">Day Dream</div>  
+    </div>  
+    <!-- Book 10 -->  
+    <div class="book">  
+      <img src="https://i.postimg.cc/7LcCQwv2/1091e02135cd13642ac34edd2cae3a25.jpg" alt="The Duke Love">  
+      <div class="book-title">The Duke Love</div>  
+    </div>  
+  </section>  
+
+  <!-- Video Section -->  
+  <section class="video-section">  
+    <h2>📺 Watch Our Feature Video</h2>  
+    <iframe src="https://www.youtube.com/embed/GLnqoxuVVAo" frameborder="0" allowfullscreen></iframe>  
+  </section>  
+
+  <!-- Testimonials Section -->  
+  <section class="testimonials">  
+    <h2>💬 What Our Customers Say</h2>  
+    <div class="testimonial">  
+      "The books I bought for my kids are amazing! They love reading now."  
+      <strong>- Mr Solomon A.</strong>  
+    </div>  
+    <div class="testimonial">  
+      "Affordable and high-quality novels. I’ll definitely order again!"  
+      <strong>- Mr Abubakar</strong>  
+    </div>  
+    <div class="testimonial">  
+      "The customer service is top-notch. Highly recommend Flippath Hub!"  
+      <strong>- Mrs Aisha U.</strong>  
+    </div>  
+  </section>  
+
+  <!-- WhatsApp Button -->  
+  <a href="https://chat.whatsapp.com/DNHBAY0yO0d83ZIvrH1Ahf?mode=ac_t" class="whatsapp-button">💬 Join Our WhatsApp Group</a>  
+  
+  <footer>  
+    &copy; 2025 Flippath Hub. All Rights Reserved.  
+  </footer>  
+</body>  
+</html>
